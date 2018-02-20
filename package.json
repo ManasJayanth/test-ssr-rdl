@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "build": "parcel build --no-minify react/main.js && mkdir -p public/ && cp -R dist/ public/dist",
+    "dev": "parcel watch react/main.js -d public/dist"
+  },
+  "dependencies": {
+    "node-jsx": "^0.13.3",
+    "node-static": "^0.7.10",
+    "parcel-bundler": "^1.6.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-dom-lite": "^0.3.0"
+  }
+}
